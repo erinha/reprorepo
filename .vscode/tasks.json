@@ -15,7 +15,7 @@
                 "background": {
                     "activeOnStart": true,
                     "beginsPattern": {
-                        "regexp": "^\\[\\s*\\d{1,2}:\\d{1,2}:\\d{1,2}(?: AM| PM)?\\] Starting compilation in watch mode\\.\\.\\."
+                        "regexp": "^\\[\\s*\\d{1,2}:\\d{1,2}:\\d{1,2}(?: AM| PM)?\\](?: Starting compilation in watch mode\\.\\.\\.| File change detected\\. Starting incremental compilation\\.\\.\\.)?"
                     },
                     "endsPattern": {
                         "regexp": "^\\[\\s*\\d{1,2}:\\d{1,2}:\\d{1,2}(?: AM| PM)?\\] (.*)Watching for file changes\\."
