@@ -1,0 +1,19 @@
+{
+    "name": "reprorepo",
+    "version": "0.0.1",
+    "description": "Repro problems for filing issues",
+    "main": "build/index.js",
+    "repository": "https://github.com/erinha/reprorepo.git",
+    "author": "Erin Greenly <erinha@microsoft.com>",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "build": "tsc",
+        "clean": "rd /s /q build",
+        "start": "node build/index.js",
+        "watch": "tsc --watch"
+    },
+    "devDependencies": {
+        "typescript": "^3.5.1"
+    }
+}

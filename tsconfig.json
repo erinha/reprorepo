@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "module" : "commonjs",
+        "moduleResolution": "node",
+        "outDir": "build",
+        "rootDir": ".",
+        "sourceMap": true,
+        "target": "es2018",
+    }
+}
