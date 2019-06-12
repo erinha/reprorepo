@@ -8,10 +8,10 @@
             "type": "npm",
             "script": "watch",
             "problemMatcher": {
-                // "owner": "typescript",
-                "owner": "erin",
-                // "base": "$tsc-watch",
+                "owner": "nottypescript",
+                "base": "$tsc-watch",
                 "applyTo": "allDocuments",
+                "source": "EG",
                 "background": {
                     "activeOnStart": true,
                     "beginsPattern": {
